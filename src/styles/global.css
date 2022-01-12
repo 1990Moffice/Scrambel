@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul.b {
+    list-style-type: square;
+  }
+
+.newdata{
+    
+    background-image: url('../images/Background/Untitled\ design\ \(2\).png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
