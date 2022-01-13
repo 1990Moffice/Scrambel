@@ -2,6 +2,7 @@ import React from 'react'
 import Logorevil from '../../images/Video/Side Rage Logo-2 (1).mp4'
 import Logomob from '../../images/Video/Mobile Rage-1.mp4'
 import './home.css'
+import { Link } from 'gatsby'
 
 const hero = () => {
     return (
@@ -36,8 +37,8 @@ const hero = () => {
               Our Blockchain-based gaming ecosystem is for passionate gamers & everyone who enjoys hyper casual gaming.
               </p>
               <div className='flex justify-center sm:justify-start'>
-              <a
-                href="/"
+              <Link
+                to="/About"
                 aria-label=""
                 className="inline-flex items-center font-semibold tracking-wider bg-white shadow-white  hover:shadow-indigo-500/90 hover:bg-black hover:shadow-xl  drop-shadow-2xl px-6 mt-5 py-2 rounded-full transition-colors duration-200 text-black hover:text-white"
                 // className="block px-5 py-3 mt-3 font-medium border border-purple-600 rounded-lg  sm:mt-0 hover:border-purple-500  tracking-wider hover:shadow-indigo-500/90 drop-shadow-2xl shadow-white text-white transition-colors duration-200"
@@ -50,7 +51,7 @@ const hero = () => {
                 >
                   <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                 </svg>
-              </a>
+              </Link>
             </div>
             </div>
             

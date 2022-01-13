@@ -1,6 +1,7 @@
 import React from 'react'
 import Logorevil from '../../images/Video/Side Rage Logo-2 (1).mp4'
 import './home.css'
+import { Link } from 'gatsby'
 
 const HomesectionOne = () => {
     return (
@@ -20,13 +21,13 @@ const HomesectionOne = () => {
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row">
-            <a
-              href="/"
+            <Link
+              to="#"
               className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-black transition duration-200 rounded-full shadow-md md:w-auto md:mr-4 md:mb-0 bg-white hover:bg-black hover:text-white focus:shadow-outline focus:outline-none border-2 border-white"
             >
               <span className="mr-3">Know more</span>
               
-            </a>
+            </Link>
   
           </div>
         </div>

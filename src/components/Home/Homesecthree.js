@@ -9,6 +9,17 @@ import image7 from '../../images/games/Untitled-3-08-08.png'
 import image8 from '../../images/games/Untitled-3-08-09-09.png'
 import './home.css'
 
+import White1 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-11.png'
+import White2 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-12.png'
+import White3 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-13.png'
+import White4 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-14.png'
+import White5 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-15 (1).png'
+import White6 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-16.png'
+import White7 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-17.png'
+import White8 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-18.png'
+
+
+
 const Homesecthree = () => {
     return (
       <div id='data' className='dada relative bg-black bg-opacity-50'>
@@ -54,11 +65,11 @@ We have different models depending on the requirement of the user, we allow user
     </p>
   </div>
   <div className="grid grid-cols-2 gap-10 sm:grid-cols-2 lg:grid-cols-4">
-    <div>
+    {/* <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
         <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image1}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White1}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -71,8 +82,8 @@ We have different models depending on the requirement of the user, we allow user
     <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
       <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image2}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White2}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -86,8 +97,8 @@ We have different models depending on the requirement of the user, we allow user
     <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
       <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image3}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White3}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -101,8 +112,8 @@ We have different models depending on the requirement of the user, we allow user
     <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
       <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image4}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White4}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -116,8 +127,8 @@ We have different models depending on the requirement of the user, we allow user
     <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
       <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image5}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White5}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -131,8 +142,8 @@ We have different models depending on the requirement of the user, we allow user
     <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
       <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image6}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White6}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -146,8 +157,8 @@ We have different models depending on the requirement of the user, we allow user
     <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
       <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image7}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White7}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -162,8 +173,8 @@ We have different models depending on the requirement of the user, we allow user
     <div>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
       <img
-          className="object-cover w-full h-44 md:h-64 xl:h-44"
-          src={image8}
+          className="object-cover w-full h-44 md:h-64 xl:h-full"
+          src={White8}
           alt="Person"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -174,7 +185,34 @@ We have different models depending on the requirement of the user, we allow user
       
         </div>
       </div>
+    </div> */}
+
+    <div className='grid item-center place-content-center'>
+      <img src={White1} alt='game1' />
     </div>
+    <div className='grid item-center place-content-center'>
+      <img src={White2} alt='game1' />
+    </div>
+    <div className='grid item-center place-content-center'>
+      <img src={White3} alt='game1' />
+    </div>
+    <div className='grid item-center place-content-center'>
+      <img src={White4} alt='game1' />
+    </div>
+    <div className='grid item-center place-content-center'>
+      <img src={White5} alt='game1' />
+    </div>
+    <div className='grid item-center place-content-center'>
+      <img src={White6} alt='game1' />
+    </div>
+    <div className='grid item-center place-content-center'>
+      <img src={White7} alt='game1' />
+    </div>
+    <div className='grid item-center place-content-center'>
+      <img src={White8} alt='game1' />
+    </div>
+
+
   </div>
 </div>
     </div>
