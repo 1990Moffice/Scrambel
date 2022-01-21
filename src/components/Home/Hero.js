@@ -2,6 +2,7 @@ import React from 'react'
 import Logorevil from '../../images/Video/Side Rage Logo-2 (1).mp4'
 import Logomob from '../../images/Video/Mobile Rage-1.mp4'
 import './home.css'
+import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby'
 
 const hero = () => {
@@ -28,6 +29,7 @@ const hero = () => {
     </div>
       <div className="relative bg-opacity-75 lg:pt-64 pt-96">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
+        <Fade left cascade>
           <div className="flex flex-col items-center justify-between xl:flex-row">
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
               <h2 className="max-w-lg mb-6 text-center sm:text-left  text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
@@ -36,6 +38,7 @@ const hero = () => {
               <p className="max-w-xl text-center sm:text-left mb-4 text-base text-gray-400 md:text-lg">
               Our Blockchain-based gaming ecosystem is for passionate gamers & everyone who enjoys hyper casual gaming.
               </p>
+              
               <div className='flex justify-center sm:justify-start'>
               <Link
                 to="/About"
@@ -56,6 +59,7 @@ const hero = () => {
             </div>
             
           </div>
+          </Fade>
         </div>
       </div>
       <div id="mouse-scroll" className='cursor-pointer' onClick={scrollToTestDiv}>

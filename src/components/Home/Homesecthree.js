@@ -1,12 +1,4 @@
 import React from 'react'
-import image1 from '../../images/games/Untitled-3-08-01.png'
-import image2 from '../../images/games/Untitled-3-08-02.png'
-import image3 from '../../images/games/Untitled-3-08-03.png'
-import image4 from '../../images/games/Untitled-3-08-05.png'
-import image5 from '../../images/games/Untitled-3-08-06.png'
-import image6 from '../../images/games/Untitled-3-08-07.png'
-import image7 from '../../images/games/Untitled-3-08-08.png'
-import image8 from '../../images/games/Untitled-3-08-09-09.png'
 import './home.css'
 
 import White1 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-11.png'
@@ -17,13 +9,15 @@ import White5 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-15
 import White6 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-16.png'
 import White7 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-17.png'
 import White8 from '../../images/games/whitelogo/Untitled-4 [Recovered]-11-18-18.png'
-
+import Fade from 'react-reveal/Fade';
 
 
 const Homesecthree = () => {
     return (
+      
       <div id='data' className='dada relative bg-black bg-opacity-50'>
       <div className='datapro11' id='datapro1'></div>
+      <Fade bottom cascade> 
          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
     <div className='flex justify-center'>
@@ -215,7 +209,9 @@ We have different models depending on the requirement of the user, we allow user
 
   </div>
 </div>
+</Fade>
     </div>
+    
     )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Image1 from '../../images/banner/sdk-02-02-02.png'
-import Image2 from '../../images/banner/sdk-02-02-03 (1).png'
+import Image1 from '../../images/banner/sdk [Recovered]-01.jpg'
+import Image2 from '../../images/banner/sdk [Recovered]-02.jpg'
 import Eth from '../../images/games/Untitled-3-08.png'
 import './home.css'
 const Imagesec = () => {

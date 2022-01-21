@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import Logo from '../../images/Logo/white-logo.png'
 import './index.css'
@@ -27,17 +28,17 @@ const Aboutsecone = () => {
       </p>
 
       <div className="mt-8 sm:justify-center sm:flex">
-        <a href="./" className="block px-5 py-3 font-medium bg-purple-600 rounded-lg hover:bg-purple-500">
+        <Link to="./" className="block px-5 py-3 font-medium bg-purple-600 rounded-lg hover:bg-purple-500">
           Get started today
-        </a>
+        </Link>
 
-        <a
-          href="./"
+        <Link
+          to="/Faq"
           className="block px-5 py-3 mt-3 font-medium border border-purple-600 rounded-lg sm:ml-3 sm:mt-0 hover:border-purple-500"
        
         >
           Find out more
-        </a>
+        </Link>
       </div>
     </div>
   </div>

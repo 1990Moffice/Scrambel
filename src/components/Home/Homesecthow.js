@@ -3,6 +3,7 @@ import './home.css'
 import Logorevil from '../../images/Video/scramble.mp4'
 import Image1 from '../../images/Logo/sdk-02-02-03 (2).png'
 import Image2 from '../../images/Logo/sdk-02-02-04 (1).png'
+import Fade from 'react-reveal/Fade';
 
 const Tabs = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
@@ -10,7 +11,7 @@ const Tabs = ({ color }) => {
     <>
     <div id="navigateHere" className="da flex flex-col px-10 py-20 lg:grid lg:grid-cols-3 place-items-center bg-black">
     
-
+    <Fade left cascade>
         <div className=" w-6/12 py-10 lg:-mr-80 ">
         <video
   src={Logorevil}
@@ -21,7 +22,7 @@ const Tabs = ({ color }) => {
   loop 
  > </video>
           </div>
-
+</Fade>
          
         
       <div className=" lg:col-span-2 flex flex-wrap ">
